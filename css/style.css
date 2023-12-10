@@ -1,3 +1,25 @@
-body {
-  background: blue;
+#item1 {
+  grid-area: one;
+  background-color: grey;
+  margin: 10px;
+}
+
+#item2 {
+  grid-area: two;
+  background-color: antiquewhite;
+  margin: 10px;
+}
+
+#item3 {
+  grid-area: three;
+  background: greenyellow;
+  margin: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'one two two two two two'
+  'one three three three three three'
+  ;
 }
