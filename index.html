@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Diana's Website</title>
         <link rel="stylesheet" href="./css/style.css">
+        
     </head>
     <body>
-        <div class="grid-container">
-            <div id="item1">
-                <img src="./images/diana.jpg" alt="diana's picture">
-                <ul>
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#interests">Interest</a>
-                    </li>
-                </ul>
-            </div>
-            <div id="item2">
-                <h1>DIANA TUEI</h1>
-                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">diana.tuei@moringaschool.com</a>
-                <p>I am Junior Software Developer currently pursuing a course at Moringa School</p>
-            </div>
-            <div id="item3">
-                <h3>My Interests</h3>
-                <p>I love reading books and watching movies. Though I actually can not watch a movie i have read its books. Here are some of my top reads that are movies</p> <br/>
-                <div class="bookFlexbox">
-                    <div id="book1"></div>
-                    <div id="book2"></div>
-                    <div id="book3"></div>
-                    <div id="book4"></div>
-                    <div id="book5"></div>
+            <header>
+                <nav>
+                    <div> 
+                        <!-- put logo in here  -->
+                    </div>
+                    <div id="rightNav">
+                <!-- <img src="./images/diana.jpg" alt="diana's picture"> -->
+                        <span><a href="#">About</a></span>
+                        <span><a href="#">My Profile</a></span>
+                        <!-- <span><a href="#">My Books</a></span> -->
+                    </div>
+                    
+                </nav>
+            </header>
 
+            <div id="mainDiv">
+                <div id="img">
+                    <img src="./images/diana.jpg" alt="diana's picture" width="400px">
+                </div>
+                <div>
+                    <h1 id="name">DIANA TUEI</h1>
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">diana.tuei@moringaschool.com</a>
+                    <p>I am Junior Software Developer currently pursuing a course at Moringa School</p>
+                    <button id="contact">Contact Me</button>
+
+                    <div class="social">
+                        <div><a href="https://facebook.com" target="_blank"><img src="./images/facebook.png" alt="facebook"></a></div>
+                        <div><a href="https://instagram.com" target="_blank"><img src="./images/instagram.png" alt="instagram"></div></a>
+                        <div><a href="https://twitter.com" target="_blank"><img src="./images/twitter.png" alt="twitter"></a></div>
+                        <div><a href="https://whatsapp.com" target="_blank"><img src="./images/whatsapp.png" alt="whatsapp"></a></div>
+                        <div><a href="https://youtube.com" target="_blank"><img src="./images/youtube.png" alt="youtube"></a></div>
+        
+                        </div> 
                 </div>
 
-            </div>
-       
-        </div>
+                
 
+            </div>
+               
+
+        <script src="./js/script.js"></script>
     </body>
 </html>
